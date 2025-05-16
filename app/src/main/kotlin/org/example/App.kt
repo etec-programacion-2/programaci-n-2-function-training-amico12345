@@ -13,7 +13,7 @@ fun main() {
     val nota = 6.0
     val aprobado = esAprobado(nota)
     println("¿Está aprobado? $aprobado")
-/*
+
     println("\n=== Etapa 2: Funciones con Múltiples Parámetros ===")
     // TODO: Implementar función calcularPromedioTresNotas
     val promedioTresNotas = calcularPromedioTresNotas(7.0, 8.0, 9.0)
@@ -22,7 +22,7 @@ fun main() {
     // TODO: Implementar función obtenerEstadoAlumno
     val estado = obtenerEstadoAlumno("Juan", "Pérez", 7.5)
     println(estado)
-
+/*
     println("\n=== Etapa 3: Funciones con Listas ===")
     // TODO: Implementar función calcularPromedioCurso
     val notas = listOf(7.0, 8.0, 6.5, 9.0, 7.5)
@@ -69,18 +69,22 @@ fun esAprobado(nota: Double): Boolean {
     return aprobado
 }
 
-/*
+
 // Etapa 2
 fun calcularPromedioTresNotas(nota1: Double, nota2: Double, nota3: Double): Double {
-    // Implementar aquí
-    return 0.0
+    val promedioTresNotas=(nota1+nota2+nota3)/3
+    return promedioTresNotas
 }
 
 fun obtenerEstadoAlumno(nombre: String, apellido: String, nota: Double): String {
-    // Implementar aquí
-    return ""
+    val estado:String
+    if (nota >= 6) {
+        return ("El alumno $nombre $apellido esta aprobado")
+    } else {
+        return ("El alumno $nombre $apellido esta desaprobado")
+    }
 }
-
+/*
 // Etapa 3
 fun calcularPromedioCurso(notas: List<Double>): Double {
     // Implementar aquí
