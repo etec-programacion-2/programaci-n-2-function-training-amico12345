@@ -1,9 +1,9 @@
 # 2025-function-training
 
 ## 👤 Identificación del Alumno
-- **Nombre:** [Tu nombre]
-- **Apellido:** [Tu apellido]
-- **Curso:** [Tu curso]
+- **Nombre:** Santino
+- **Apellido:** Amico
+- **Curso:** 4°I
 
 ## 🤖 Consideraciones Éticas sobre el Uso de IA
 Este ejercicio está diseñado para desarrollar tus habilidades de programación. Por favor, ten en cuenta las siguientes consideraciones:
@@ -76,7 +76,8 @@ git push
 ### Etapa 4: Funciones Avanzadas
 En esta última etapa, combinaremos todos los conceptos aprendidos.
 
-1. Implementa la función `generarBoletin` que recibe un nombre, una lista de materias y una lista de notas, y retorna un String con el formato de un boletín escolar.
+1. Implementa la función `generarBoletin` que recibe un nombre, una lista de materias y una lista de notas, 
+y retorna un String con el formato de un boletín escolar.
 2. Implementa las siguientes funciones para analizar el rendimiento del curso:
    - `obtenerNotaMasAlta`: recibe una lista de notas y retorna la nota más alta
    - `obtenerNotaMasBaja`: recibe una lista de notas y retorna la nota más baja
